@@ -6,9 +6,21 @@
     height: 10em;
     width: auto;
     text-align: center;
+    border-style: solid;
+    border-width: -10px;
+    border-color:  cornflowerblue;
+    
+
+    }
 
 
+.shaded-appear{
+    opacity: 0.01;
+}
 
+.shaded-appear.shaded-appear-active{
+    opacity: 1;
+    transition: opacity .5s ease-in;
 }
 
 .TakeIt{
