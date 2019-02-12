@@ -22,7 +22,9 @@
     "react": "^16.8.1",
     "react-devtools": "^3.6.0",
     "react-dom": "^16.8.1",
-    "react-scripts": "^2.1.5"
+    "react-scripts": "^2.1.5",
+    "react-transition-group": "^1.2.1",
+    "typescript": "^3.3.3"
   },
   "browserslist": [
     ">0.2%",
