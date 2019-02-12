@@ -1,14 +1,13 @@
 import React from 'react';
+import '../components/backprop.css';
+
 
 
 class BackProp extends React.Component{
     render(){
         return(
-            <div>
-        <form>
-        <input></input>
-        <button></button>
-        </form>
+            <div className ="BackProp">
+        <input className="TakeIt"></input>
         </div>
         )}
 }
