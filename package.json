@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/hakeem1106/notchoapp#readme",
   "dependencies": {
+    "@types/react": "^16.8.2",
+    "@types/react-transition-group": "^2.0.15",
     "nodejs": "0.0.0",
     "react": "^16.8.1",
     "react-devtools": "^3.6.0",
