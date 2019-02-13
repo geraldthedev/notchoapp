@@ -4,9 +4,14 @@ import { CSSTransitionGroup } from 'react-transition-group';
 
 
 
-class BackProp extends React.Component{
+export default class BackProp extends React.Component{
+inital= () => {
+    this.setState({open: true })
+}
+
     render(){
         return(
+            <>
             <CSSTransitionGroup
             transitionName="shaded"
             transitionAppear={true}
@@ -16,8 +21,12 @@ class BackProp extends React.Component{
             >
             <div className ="BackProp">
         <input className="TakeIt"></input>
+         <br />
+        <button className="ReactButton"></button>
         </div>
+
         </CSSTransitionGroup>
+        </>
+
         )}
 }
-export default BackProp
