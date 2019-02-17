@@ -22,6 +22,7 @@
     "@types/react-transition-group": "^2.0.15",
     "nodejs": "0.0.0",
     "react": "^16.8.1",
+    "react-dev-tools": "0.0.1",
     "react-devtools": "^3.6.0",
     "react-dom": "^16.8.1",
     "react-scripts": "^2.1.5",
